@@ -6,19 +6,17 @@
 // }
 
 const whileLoop = () => {
-  let i = 0;
+  let i = 0
   while (i < 5) {
-    console.log(i);
-    i++;
+    console.log(i)
+    i++
   }
 
-  let count = 1;
+  let count = 1
   while (count < 100) {
-    count = count + 2;
+    count = count + 2
   }
-  console.log(count);
-};
+  console.log(count)
+}
 
-whileLoop();
-
-// sadas
+whileLoop()
